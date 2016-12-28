@@ -1,0 +1,127 @@
+body{
+  font-family: sans-serif;
+  font-size: 13px;
+}
+//navbar styles
+#nav {
+  padding: 30px;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  padding-right: 15px;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#grid:hover,
+#bell:hover {
+  opacity: 1;
+}
+
+#grid,
+#bell {
+  opacity: .7;
+  padding-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+#profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+//searchbar styles
+#logo {
+  margin-top: 200px;
+  text-align: center;
+  clear: both;
+}
+
+#searchbar {
+  text-align: center;
+  position: relative;
+  padding-left: 10px;
+  margin: auto;
+  width: 500px;
+  height: 40px;
+  box-shadow: 2px 1px 2px #888888;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+#searchbar:hover{
+  box-shadow: 3px 2px 3px #888888;
+}
+
+input {
+  width: 460px;
+  left: 10px;
+  position: absolute;
+  height: 35px;
+  border: none;
+  outline: 0;
+}
+
+input:hover,
+input:active {
+  border: none;
+}
+
+#microphone {
+  padding-top: 10px;
+  position: absolute;
+  right: 10px;
+  height: 20px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  margin-left:5px;
+  margin-right:5px;
+  padding: 10px;
+  background-color: rgb(242, 242, 242);
+  color: rgb(120, 120, 120);
+  font-weight: bold;
+  border: 1px solid rgb(242, 242, 242);
+  border-radius: 2px;
+}
+
+button:hover {
+  border: 1px solid rgb(209, 209, 209);
+}
+
+//buttom-nav styles
+#bottom-nav{
+  position:fixed;
+  //position:relative;
+  background-color:rgb(242, 242, 242);
+  height:40px;
+  width:100%;
+  bottom:20px;
+  border-top: 1px solid rgb(220, 220, 220);
+}
+#bottom-nav a{
+  padding-left:20px;
+}
+#left{
+  //position:absolute;
+  float:left;
+  padding: 12px;
+}
+#right{
+  //position: absolute;
+  float:right;
+  padding:12px;
+}
