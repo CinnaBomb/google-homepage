@@ -1,8 +1,9 @@
-body{
+body {
   font-family: sans-serif;
   font-size: 13px;
 }
-//navbar styles
+
+/*navbar styles*/
 #nav {
   padding: 30px;
   float: right;
@@ -39,7 +40,7 @@ a:hover {
   border-radius: 100%;
 }
 
-//searchbar styles
+/*searchbar styles*/
 #logo {
   margin-top: 200px;
   text-align: center;
@@ -57,7 +58,7 @@ a:hover {
   border: 1px solid rgb(209, 209, 209);
 }
 
-#searchbar:hover{
+#searchbar:hover {
   box-shadow: 3px 2px 3px #888888;
 }
 
@@ -88,8 +89,8 @@ input:active {
 
 button {
   margin-top: 20px;
-  margin-left:5px;
-  margin-right:5px;
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 10px;
   background-color: rgb(242, 242, 242);
   color: rgb(120, 120, 120);
@@ -102,26 +103,26 @@ button:hover {
   border: 1px solid rgb(209, 209, 209);
 }
 
-//buttom-nav styles
-#bottom-nav{
-  position:fixed;
-  //position:relative;
-  background-color:rgb(242, 242, 242);
-  height:40px;
-  width:100%;
-  bottom:20px;
+/*buttom-nav styles*/
+#bottom-nav {
+  position: fixed;
+  background-color: rgb(242, 242, 242);
+  height: 40px;
+  width: 100%;
+  bottom: 20px;
   border-top: 1px solid rgb(220, 220, 220);
 }
-#bottom-nav a{
-  padding-left:20px;
+
+#bottom-nav a {
+  padding-left: 20px;
 }
-#left{
-  //position:absolute;
-  float:left;
+
+#left {
+  float: left;
   padding: 12px;
 }
-#right{
-  //position: absolute;
-  float:right;
-  padding:12px;
+
+#right {
+  float: right;
+  padding: 12px;
 }
